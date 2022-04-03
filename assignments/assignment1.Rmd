@@ -1,0 +1,158 @@
+---
+title: "Assignment 1: My Files and Folders"
+author: "Sydney Rilum"
+date: "4/2/2022"
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+## Task:
+
+Prepare a Markdown document in the form of an outline that specifies the
+folder hierarchy, and the naming convention for files and folders, for a
+collection of files and folders that you already are managing (or
+co-managing).
+
+-   The indentation of the outline should reflect the folder hierarchy.
+-   Folder names should include a trailing `\` (Windows) or `/` (Mac) to
+    distinguish them from file names.
+-   Literal names should be rendered in `constant width font`
+-   (Portions of) Names that should be replaced with specific
+    information about the file or folder should be rendered in italic
+    font.
+
+## Outline of Folder Hierarchy & Naming Conventions:
+
+### Bren MESM Files
+
+This folder contains all course work and academic resources at the UCSB
+Bren School of Environmental Science and Management.
+
+### Typographic Conventions
+
+-   literal: fixed parts of file or folder names
+
+-   *variable*: variable parts of file or folder names (*italicized*)
+
+### Structure and Naming Conventions
+
+/Users/Sydney/Desktop/Bren_MESM/: directory file path, consisting of the
+following folder and file structure:
+
+-   courses/: folder containing all masters coursework
+
+    -   *quarter_yyyy*/: name of quarter (fall, winter, or spring) and
+        year
+
+        -   esm*XXX*/: name of course (code)
+
+            -   esm*XXX\_*syllabus.pdf: course syllabus
+
+            -   readings/: course readings (scientific papers, book
+                pdfs, etc.)
+
+                -   week*n*/: week #n (out of 10)
+
+                    -   *author_yyyy_title*: author last name, year of
+                        publishing, title of reading
+
+                        -   e.g., for a scientific paper:
+                            Rilum_2022_climate_change_impacts_on\_
+                            coral_reefs.pdf
+
+            -   lectures/: course lecture slides
+
+                -   *yyyy-mm-dd_title*.pdf: date of lecture slide
+                    presentation and title
+
+            -   assignments/: course assignments
+
+                -   a*n*/: assignment #n
+
+            -   labs/: lab files (for coding classes)
+
+                -   lab*n*/: lab #n
+
+-   group_project/: Bren group project files (for record keeping
+    purposes as data manager; all working documents are stored on a team
+    Google drive)
+
+    -   meeting_notes/: meeting notes
+
+        -   client_meetings/: client meeting notes
+
+            -   *yyyy-mm-dd*\_client_meeting.docx
+
+        -   group_meetings/: group meeting notes
+
+            -   *yyyy-mm-dd*\_group_meeting.docx
+
+    -   data/: data files
+
+        -   survey/: survey data (raw files)
+
+            -   survey_matrix/: survey questionnaire (.xlsx)
+
+                -   *yyyy-mm-dd*\_survey_matrix.xlsx
+
+            -   survey_data/: survey data obtained from Qualtrics
+
+                -   *yyyy-mm-dd*\_survey_data.csv
+
+        -   interviews/: interview data
+
+            -   consent_forms/: interviewee signed consent forms
+
+                -   *yyyy-mm-dd*\_consent\_*interviewee*.pdf
+
+            -   recordings/: interview audio recordings
+
+                -   *yyyy-mm-dd*\_recording\_*interviewee*.mp4
+
+            -   transcriptions/: interview transcriptions
+
+                -   *yyyy-mm-dd*\_transcription\_*interviewee*.docx
+
+    -   final_deliverables/:
+
+        -   work_plan/: work plan (.docx, .pdf)
+
+        -   presentations/: faculty review and public presentation
+            slides (.ppt, .pdf)
+
+        -   reports/: written reports (.docx, .pdf)
+
+    -   peer_reviews/: quarterly group member peer reviews
+
+        -   *quarter_yyyy*.docx: name of quarter (fall, winter, or
+            spring) and year
+
+-   career_files/: Bren career team lectures, resume info, interview
+    tips, etc. documents
+
+    -   slides/: career talk slides and notes
+
+        -   *yyyy-mm-dd*\_*title*: date and title of career talk meeting
+            (.docx, .pdf)
+
+    -   resume/:
+
+        -   examples/: career team resume examples, guides, and tips
+            (.docx, .pdf)
+
+        -   resumes/: various versions of my resume
+
+            -   *yyyy-mm-dd*\_sr_resume\_*job*.docx: date of resume
+                creation and job title applying for
+
+    -   cover_letter:/
+
+        -   examples/: career team cover letter examples, guides, and
+            tips (.docx, .pdf)
+
+        -   cover_letters/: various versions of my cover letter
+
+            -   *yyyy-mm-dd*\_sr_cover_letter\_*job*.docx: date of cover
+                letter creation and job title applying for
